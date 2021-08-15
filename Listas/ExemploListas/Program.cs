@@ -5,6 +5,14 @@ namespace ExemploListas
 {
     class Program
     {
+        internal Funcionario Funcionario
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         static void Main(string[] args)
         {
             int idFunc;
