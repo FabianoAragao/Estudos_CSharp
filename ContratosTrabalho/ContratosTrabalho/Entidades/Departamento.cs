@@ -5,11 +5,15 @@ namespace ContratosTrabalho.Entidades
 {
     class Departamento
     {
-        public string nome{ get; set; }
+        public string Nome{ get; set; }
 
+        public Departamento()
+        {
+
+        }
         public Departamento(string depNome)
         {
-            this.nome = depNome;
+            this.Nome = depNome;
         }
     }
 }

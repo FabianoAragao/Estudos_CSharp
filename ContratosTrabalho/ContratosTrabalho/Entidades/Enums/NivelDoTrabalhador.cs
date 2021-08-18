@@ -1,13 +1,10 @@
-﻿using System;
-
-
-
-namespace ContratosTrabalho
+﻿
+namespace ContratosTrabalho.Entidades.Enums
 {
-    public enum NivelDoTrabalhador
+    public enum NivelDoTrabalhador : int
     {
-        JUNIOR = 0,
-        PLENO = 1,
-        SENIOR = 2
+        Junior = 0,
+        Pleno = 1,
+        Senior = 2
     }
 }

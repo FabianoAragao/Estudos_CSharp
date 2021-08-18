@@ -1,32 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="ContratosTrabalho.Entidades.ContratosPorHora">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAQAAAAQAA=</HashCode>
+      <HashCode>AABAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>Entidades\ContratosPorHora.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ContratosTrabalho.Entidades.Departamento">
-    <Position X="0.5" Y="3.25" Width="1.5" />
+    <Position X="0.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
       <FileName>Entidades\Departamento.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ContratosTrabalho.Entidades.Trabalhador">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AQAEAAAAAAQBAAAAAAAAAAAAAgAAAQAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAQAAAAEAQAAAIAAAgAAAQAAAAAAAAEAAAA=</HashCode>
       <FileName>Entidades\Trabalhador.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="ContratosTrabalho.NivelDoTrabalhador">
-    <Position X="5.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Entidades\Enums\NivelDoTrabalhador.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
