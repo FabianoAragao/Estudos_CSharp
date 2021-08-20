@@ -34,7 +34,7 @@ namespace ContratosTrabalho.Entidades
             this.Contratos.Remove(contrato);
         }
 
-        public double renda(int ano, int mes)
+        public double renda(int mes, int ano)
         {
             double soma = this.SalarioBase;
 
