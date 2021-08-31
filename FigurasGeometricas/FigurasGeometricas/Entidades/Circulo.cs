@@ -8,10 +8,6 @@ namespace FigurasGeometricas.Entidades
     {
         public double Raio { get; set; }
 
-        public Circulo()
-        {
-        }
-
         public Circulo(Cor corFigura, double raio) : base(corFigura)
         {
             Raio = raio;
@@ -19,7 +15,7 @@ namespace FigurasGeometricas.Entidades
 
         public override double Area()
         {
-            return Math.Pow(Raio,2) * 3.14;
+            return Math.Pow(Raio,2) * Math.PI;
         }
 
         public override string ToString()

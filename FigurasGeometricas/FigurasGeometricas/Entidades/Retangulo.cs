@@ -8,10 +8,6 @@ namespace FigurasGeometricas.Entidades
         public double Largura { get; set; }
         public double Altura { get; set; }
 
-        public Retangulo()
-        {
-        }
-
         public Retangulo(Cor corFigura,double largura, double altura) : base(corFigura)
         {
             Largura = largura;
