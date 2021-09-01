@@ -54,7 +54,7 @@ namespace Contribuintes
                 totImpostos += contr.CalcuoImposto();
             }
 
-            Console.WriteLine($"{totImpostos.ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine($"TOTAL DE IMPOSTOS: {totImpostos.ToString("F2", CultureInfo.InvariantCulture)}");
         }
     }
 }

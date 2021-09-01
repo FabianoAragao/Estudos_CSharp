@@ -12,7 +12,7 @@ namespace Contribuintes.Entidades
 
         public override double CalcuoImposto()
         {
-            if (GastosComSaude < 20000)
+            if (RendaAnual < 20000)
             {
                 return (RendaAnual * 0.15) - (GastosComSaude * 0.5);
             }
