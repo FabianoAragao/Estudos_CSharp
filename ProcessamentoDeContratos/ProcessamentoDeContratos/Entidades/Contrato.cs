@@ -16,7 +16,7 @@ namespace ProcessamentoDeContratos.Entidades
             NumeroContrato = numeroContrato;
             DataContrato = dataContrato;
             ValorContrato = valorContrato;
-            Parcela = null;
+            //Parcela = null;
         }
 
         public void AddParcela(Parcela novaParc)

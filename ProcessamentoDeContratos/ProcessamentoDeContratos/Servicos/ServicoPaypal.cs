@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+﻿using ProcessamentoDeContratos.Servicos.Interfaces;
 
 namespace ProcessamentoDeContratos.Servicos
 {
@@ -6,13 +6,12 @@ namespace ProcessamentoDeContratos.Servicos
     {
         public double CalculaJuros(double vlrParcela, int numMeses)
         {
-            double temp = vlrParcela + (vlrParcela * (0.01 * numMeses));//calcula a taxa de juros 
-            return temp + (vlrParcela * 0.02);// calcula a taxa de pagamento do paypal
+            return (vlrParcela * (0.01 * numMeses));
         }
 
-        //public double CalculaTaxaPag(double vlrParcela)
-        //{
-         //   return vlrParcela + (vlrParcela * 0.02);
-       // }
+        public double CalculaTaxaPag(double vlrParcela)
+        {
+            return (vlrParcela * 0.02);
+        }
     }
 }
