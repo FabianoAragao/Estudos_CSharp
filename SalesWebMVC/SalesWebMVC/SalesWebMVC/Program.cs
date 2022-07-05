@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using SalesWebMVC.Models;
 using SalesWebMVC.Data;
+using SalesWebMVC.Servicos;
 var 
     builder = WebApplication.CreateBuilder(args);
 
@@ -8,11 +10,15 @@ builder.Services.AddDbContext<SalesWebMVCContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("SalesWebMVCContext") ,
     builder => builder.MigrationsAssembly("SalesWebMVC")));
 
+builder.Services.AddScoped<ServicoDeSeeding>();
+builder.Services.AddScoped<ServicoVendedor>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
+// converte as datas para um tipo que o postgres compreende
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 // Configure the HTTP request pipeline.
